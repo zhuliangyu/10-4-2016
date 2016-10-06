@@ -9,8 +9,11 @@
 <body>
 <h1>I am a template.</h1>
 
-<%=yield %>
+<%= yield %>
 
+<%= @arr.each do |elem| %>
+<%= elem %>
+<% end %>
 
 
 </body>
